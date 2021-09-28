@@ -8,6 +8,11 @@ module.exports = {
   darkMode: false,
   theme: {
       extend: {
+
+        backgroundImage: theme => ({
+          'wave-pattern': 'url(../img/wave-white.png)'
+
+        }),
         colors: {
             redd: "#ec1d24"
         },
